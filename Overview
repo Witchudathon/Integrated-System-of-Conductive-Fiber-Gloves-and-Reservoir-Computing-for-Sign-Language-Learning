@@ -1,0 +1,10 @@
+Overview
+This project implements a Reservoir Computing framework using Echo State Networks (ESNs) for time series classification, specifically for hand movement monitoring.
+
+Prerequisites
+Input Data Requirements
+Training and test data must be in the form of 3D NumPy arrays with shape [N, T, V]:
+N: Number of samples
+T: Number of time steps per sample
+V: Number of variables per sample
+Labels for training and test data should be provided in one-hot encoding format with shape [N, C], where C is the number of classes.
